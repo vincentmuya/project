@@ -1,0 +1,50 @@
+Types of AI
+
+-Reactive AI
+-Limited Memor AI
+-Theory Of Mind AI
+-Self-Aware AI
+
+Consideration And Goals of the AI
+
+-Machine Learning Predictions – Using TensorFlow for tasks like price predictions, demand forecasting, or trend analysis.
+-Natural Language Processing (NLP) – AI that understands and processes text, such as chatbots, sentiment analysis, or document summarization.
+-Computer Vision – AI for image recognition, object detection, or facial recognition.
+-Recommendation Systems – AI that suggests products, music, or content based on user behavior.
+
+Best approach is to start simple and gradually add more complexity.
+
+Suggested Roadmap:
+Step 1: Machine Learning Predictions (Least Complex)
+We can start with regression-based predictions, such as house price prediction or basic trend forecasting.
+
+Step 2: Natural Language Processing (NLP)
+Once comfortable, we move to text classification, like sentiment analysis or spam detection.
+
+Step 3: Recommendation Systems
+Using collaborative filtering or deep learning, we can build an AI that suggests vendors, products, or content.
+
+Step 4: Computer Vision (Most Complex)
+Finally, we integrate image recognition or object detection, such as identifying event images or verifying IDs.
+
+Types of ML Predictions
+
+Regression (Predicting Continuous Values)
+Used when predicting numerical values (e.g., price prediction, temperature forecasting).
+Example: Predicting house prices based on location, size, and amenities.
+Common Algorithms: Linear Regression, Decision Trees, Neural Networks.
+
+Classification (Predicting Categories)
+Used when predicting categories (e.g., spam vs. non-spam, fraud detection).
+Example: Email spam detection (Spam or Not Spam).
+Common Algorithms: Logistic Regression, Random Forest, Deep Neural Networks.
+
+Time Series Forecasting
+Used when predicting future trends based on past data (e.g., stock prices, sales forecasting).
+Example: Predicting next month’s electricity consumption.
+Common Algorithms: ARIMA, LSTMs, Transformer Models.
+
+Anomaly Detection
+Used when identifying unusual patterns in data (e.g., fraud detection, network security).
+Example: Detecting fraudulent credit card transactions.
+Common Algorithms: Autoencoders, Isolation Forests.
