@@ -1,0 +1,11 @@
+import joblib
+from sklearn.ensemble import RandomForestClassifier
+
+# Example model (random forest)
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+
+# Train the model (assuming X_train and y_train are already defined)
+model.fit(X_train, y_train)
+
+# Save the trained model
+joblib.dump(model, "loan_eligibility_model.pkl")

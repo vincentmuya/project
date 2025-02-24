@@ -1,0 +1,56 @@
+Types of ML Predictions
+
+-Regression (Predicting Continuous Values)
+Used when predicting numerical values (e.g., price prediction, temperature forecasting).
+Example: Predicting house prices based on location, size, and amenities.
+Common Algorithms: Linear Regression, Decision Trees, Neural Networks.
+
+-Classification (Predicting Categories)
+Used when predicting categories (e.g., spam vs. non-spam, fraud detection).
+Example: Email spam detection (Spam or Not Spam).
+Common Algorithms: Logistic Regression, Random Forest, Deep Neural Networks.
+
+-Time Series Forecasting
+Used when predicting future trends based on past data (e.g., stock prices, sales forecasting).
+Example: Predicting next month’s electricity consumption.
+Common Algorithms: ARIMA, LSTMs, Transformer Models.
+
+-Anomaly Detection
+Used when identifying unusual patterns in data (e.g., fraud detection, network security).
+Example: Detecting fraudulent credit card transactions.
+Common Algorithms: Autoencoders, Isolation Forests.
+------------------------------------------------------------------------------------------------------------------------
+Choosing a New Machine Learning Model
+ML models we can implement before advancing:
+
+Model	                            Objective	                                            Example Use Case	                    Complexity
+Loan Eligibility             Prediction	Classify if a user qualifies for a loan	Bank        Loan Approval	                        Beginner 🔹
+Car Price Prediction	     Predict the price of a car based on features	                Used Car Market	                        Beginner 🔹
+Stock Price Prediction	     Predict future stock prices based on historical data	        Financial Markets	                    Intermediate 🔸
+Customer Churn Prediction	 Predict if a customer will stop using a service	            Telecom, SaaS businesses	            Intermediate 🔸
+Sales Forecasting	         Predict future sales based on past trends	                    Retail Business	                        Advanced 🔺
+
+------------------------------------------------------------------------------------------------------------------------
+
+📌 Steps to Build the Loan Eligibility Prediction Model
+1️⃣ Define the Problem Statement
+We will predict whether a loan application should be approved (Yes) or rejected (No) based on the following features:
+
+Applicant Income
+Loan Amount Requested
+Credit Score
+Employment Status
+Existing Debts
+2️⃣ Collect & Prepare Data
+We need sample data with the above features and the loan approval outcome (Yes/No). I will generate a small dataset for training.
+
+3️⃣ Train a Machine Learning Model
+We will use Logistic Regression (a simple yet effective classification algorithm).
+Other possible models:
+
+Random Forest 🌳 (Better accuracy, more complexity)
+Neural Network 🤖 (More advanced)
+4️⃣ Integrate with Django API
+Create a /api/predict_loan_eligibility/ endpoint.
+Load and use the trained model inside Django views.
+Allow users to input loan details via the API and get predictions.
